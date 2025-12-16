@@ -44,9 +44,8 @@ This mirrors episode selection strategies recently proposed for Monte Carlo rein
 
 We consider the 1D viscous Burgers’ equation:
 
-\[
-u_t + u u_x = \nu u_{xx}, \quad x \in [-1, 1], \; t \in [0, T]
-\]
+
+$u_t + u u_x = \nu u_{xx}, \quad x \in [-1, 1], \; t \in [0, T]$
 
 with standard initial and boundary conditions used in PINN literature.
 
