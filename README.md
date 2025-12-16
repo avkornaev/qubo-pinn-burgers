@@ -89,6 +89,41 @@ The QUBO is solved using:
 
 ---
 
+## References
+
+1. Raissi, M., Perdikaris, P., & Karniadakis, G. E.  
+   **Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations.**  
+   *Journal of Computational Physics*, 378, 686–707, 2019.
+
+2. Wu, C., Zhu, M., Tan, X., Kartha, Y., & Karniadakis, G. E.  
+   **A comprehensive study of non-adaptive and residual-based adaptive sampling for physics-informed neural networks.**  
+   *Computer Methods in Applied Mechanics and Engineering*, 406, 115818, 2023.
+
+3. Gao, H., Wang, L., & Sun, L.  
+   **Failure-informed adaptive sampling for physics-informed neural networks.**  
+   *SIAM Journal on Scientific Computing*, 45(1), A1–A26, 2023.
+
+4. Mao, Z., Jagtap, A. D., & Karniadakis, G. E.  
+   **Physics-informed neural networks for high-speed flows with adaptive sampling.**  
+   *Applied Mathematics and Mechanics*, 44, 1–22, 2023.
+
+5. Tang, K., Liu, Y., & Perdikaris, P.  
+   **Adversarial adaptive sampling for physics-informed neural networks.**  
+   *International Conference on Learning Representations (ICLR)*, 2024.
+
+6. Salloum, H., Jnadi, A., Kholodov, Y., & Gasnikov, A.  
+   **Quantum-inspired episode selection for Monte Carlo reinforcement learning via QUBO optimization.**  
+   *Proceedings of Machine Learning Research (PMLR)*, 2025.
+
+7. Goto, H., Tatsumura, K., & Dixon, A. R.  
+   **Combinatorial optimization by simulating adiabatic bifurcations in nonlinear Hamiltonian systems.**  
+   *Science Advances*, 5(4), eaav2372, 2019.
+
+8. Crosson, E., & Harrow, A. W.  
+   **Simulated quantum annealing can be exponentially faster than classical simulated annealing.**  
+   *FOCS*, IEEE, 2016.
+
+
 ## Repository Structure
 ```text
 ├── data/
