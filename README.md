@@ -90,7 +90,7 @@ The QUBO is solved using:
 ---
 
 ## Repository Structure
-'''
+```text
 ├── data/
 │ └── burgers_reference_solution/
 ├── pinn/
@@ -111,6 +111,6 @@ The QUBO is solved using:
 │ └── logs/
 ├── README.md
 └── requirements.txt
-'''
+```
 
 
