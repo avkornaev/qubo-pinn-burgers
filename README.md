@@ -71,13 +71,11 @@ All methods use the same PINN architecture and optimizer.
 
 ## QUBO Formulation (High-Level)
 
-Each candidate collocation point $x_i$ is associated with a binary variable $ z_i \in \{0,1\} $.
+Each candidate collocation point $x_i$ is associated with a binary variable $z_i \in \{0,1\}$.
 
 The optimization objective is:
 
-$
-\min_{z} \sum_i (-\alpha s_i) z_i + \sum_{i<j} \gamma w_{ij} z_i z_j
-$
+$\min_{z} \sum_i (-\alpha s_i) z_i + \sum_{i<j} \gamma w_{ij} z_i z_j$
 
 where:
 $s_i$ is the importance score (e.g., PDE residual), $w_{ij}$ is the similarity between points (e.g., distance-based),  $\alpha, \gamma$ are the trade-off coefficients
